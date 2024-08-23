@@ -15,6 +15,5 @@ public class CapitalizeStringExample {
         String inputString = scanner.nextLine();
         String capitalizeString = capitalizeString(inputString);
         System.out.println("Capitalize string is: " + capitalizeString);
-
     }
 }
