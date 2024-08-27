@@ -6,11 +6,14 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FibonacciSeriesExampleTest {
     @Test
-    public void verifyFibonacciSeries(){
+    public void verifyFibonacciSeries() {
+        // Arrange = Given
+        int[] expected = {0, 1, 1, 2, 3};
 
-        int[] expected={0,1,1,2,3};
-        int[] actual=FibonacciSeriesExample.fibonacciSeries(5);
-        assertArrayEquals(expected,actual);
+        // Act = When
+        int[] actual = FibonacciSeriesExample.fibonacciSeries(5);
+
+        // Assert = Then
+        assertArrayEquals(expected, actual);
     }
-
 }
