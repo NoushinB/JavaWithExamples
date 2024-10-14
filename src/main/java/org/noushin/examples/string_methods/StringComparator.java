@@ -16,6 +16,10 @@ public class StringComparator {
 
         }
         else System.out.println("The strings are not equal.");
+
+        System.out.println(firstString.concat(secondString));
+        System.out.println(firstString.contains("Nou"));
+        System.out.println(firstString.contentEquals(secondString));
     }
     public  static int checkStringsEquality(String firstString,String secondString){
         return firstString.compareTo(secondString);
