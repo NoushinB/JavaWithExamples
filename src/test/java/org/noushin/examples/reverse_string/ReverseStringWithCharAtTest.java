@@ -4,14 +4,14 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ReverseStringExampleTest {
+class ReverseStringWithCharAtTest {
 
     @Test
     public void verifyReverseString() {
         String testString = "unit test";
         String expected = "tset tinu";
 
-        String actual = ReverseStringExample.reverseString(testString);
+        String actual = ReverseStringWithCharAt.reverseString(testString);
 
         assertEquals(expected, actual);
     }

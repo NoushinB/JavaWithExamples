@@ -2,7 +2,7 @@ package org.noushin.examples.reverse_string;
 
 import java.util.Scanner;
 
-public class ReverseStringExample {
+public class ReverseStringWithCharAt {
 
     public static String reverseString(String input) {
         StringBuilder result = new StringBuilder();  // Instead of result += input.charAt(i)
