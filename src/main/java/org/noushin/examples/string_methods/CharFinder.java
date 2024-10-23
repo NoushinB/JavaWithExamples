@@ -6,8 +6,9 @@ public class CharFinder {
     public static char findCharacterAtIndex(String inputString, int index) {
         return inputString.charAt(index);
     }
-    public static void main(String[] args){
-        Scanner scanner=new Scanner(System.in);
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter a string: ");
         String userInput = scanner.nextLine();

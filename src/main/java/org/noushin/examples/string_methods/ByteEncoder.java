@@ -13,8 +13,8 @@ public class ByteEncoder {
 //            System.out.print(b + " ");
 //        }
 
-        for (byte b: byteArray){
-            System.out.print(b+" ");
+        for (byte b : byteArray) {
+            System.out.print(b + " ");
         }
     }
 

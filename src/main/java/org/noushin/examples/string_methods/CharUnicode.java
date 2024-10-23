@@ -11,7 +11,7 @@ public class CharUnicode {
         System.out.println("Enter an index: ");
         int index = scanner.nextInt();
         System.out.println("Enter an end index:");
-        int endIndex=scanner.nextInt();
+        int endIndex = scanner.nextInt();
         int unicode = findCharUnicode(index, userInput);
         System.out.println("The Unicode of char in index (" + index + ") is: " + unicode);
 
@@ -19,9 +19,8 @@ public class CharUnicode {
         System.out.println("The Unicode of char before index (" + index + ") is: " + unicodeBefore);
 
 
-        int numberOfUnicodValue= findCountNumberOfUnicodeValue(index,endIndex,userInput);
-        System.out.println("The number of Unicode values is: "+numberOfUnicodValue);
-
+        int numberOfUnicodValue = findCountNumberOfUnicodeValue(index, endIndex, userInput);
+        System.out.println("The number of Unicode values is: " + numberOfUnicodValue);
 
 
     }
