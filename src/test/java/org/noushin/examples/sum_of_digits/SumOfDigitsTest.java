@@ -22,5 +22,12 @@ public class SumOfDigitsTest {
         assertEquals(expectResult,actualResult);
     }
 
+    @Test
+    public void testSumOfDigits_singleDigit(){
+        int num=3;
+        int actualResult=SumOfDigits.sumOfDigits(num);
+        int expectResult=3;
+        assertEquals(expectResult,actualResult);    }
+
 
 }
