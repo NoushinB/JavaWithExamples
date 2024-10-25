@@ -1,4 +1,4 @@
-package org.noushin.examples;
+package org.noushin.examples.sum_of_digits;
 
 import java.util.Scanner;
 
