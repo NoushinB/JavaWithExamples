@@ -14,6 +14,13 @@ public class SumOfDigitsTest {
         assertEquals(expectResult, actualResult);
 
     }
+    @Test
+    public void testSumOfDigits_negativeNumber(){
+        int num= -1234;
+        int actualResult=SumOfDigits.sumOfDigits(num);
+        int expectResult=10;
+        assertEquals(expectResult,actualResult);
+    }
 
 
 }
