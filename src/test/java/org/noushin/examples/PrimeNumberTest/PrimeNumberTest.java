@@ -17,4 +17,11 @@ public class PrimeNumberTest {
 
         assertEquals(expectResult,actualResult);
     }
+    @Test
+    public void verifyNonPrimeNumber(){
+        int nonPrimeNum=10;
+        boolean expectResult=false;
+        boolean actualResult=PrimeNumber.checkPrimeNumber(nonPrimeNum);
+        assertEquals(expectResult,actualResult);
+    }
 }
