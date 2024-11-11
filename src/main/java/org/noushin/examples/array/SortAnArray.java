@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class SortAnArray {
 
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the length of the Array:");
         int length = scanner.nextInt();
@@ -23,5 +23,15 @@ public class SortAnArray {
 
         scanner.close();
 
+    }*/
+
+
+    public static void main(String[] args) {
+        int[] array={23,45,3,10};
+
+        Arrays.sort(array);
+for(int i=0;i<array.length;i++){
+        System.out.print(array[i]+" ");
+    }
     }
 }
