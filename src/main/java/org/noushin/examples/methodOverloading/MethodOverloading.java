@@ -1,6 +1,7 @@
 package org.noushin.examples.methodOverloading;
 
-public class MethodOverloading {
+class MethodOverloading {
+    // Method to add two integers
     int add(int a, int b) {
         return a + b;
     }
@@ -14,9 +15,7 @@ public class MethodOverloading {
     double add(double a, double b) {
         return a + b;
     }
-}
 
-public class Main {
     public static void main(String[] args) {
         MethodOverloading calc = new MethodOverloading();
 
@@ -25,3 +24,4 @@ public class Main {
         System.out.println("Adding two doubles: " + calc.add(2.5, 3.5));           // Calls add(double, double)
     }
 }
+
