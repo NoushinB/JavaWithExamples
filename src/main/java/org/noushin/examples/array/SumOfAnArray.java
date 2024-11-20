@@ -5,6 +5,16 @@ import java.util.Scanner;
 public class SumOfAnArray {
 
 
+    public static int sumOfArray(int[] array) {
+        int sumArray = 0;
+        for (int j = 0; j < array.length; j++) {
+            sumArray += array[j];
+
+        }
+        return sumArray;
+    }
+
+
     public static void main(String[] args){
        /* Scanner scanner=new Scanner(System.in);
         System.out.println("Please input number of Array items");
@@ -19,12 +29,8 @@ public class SumOfAnArray {
         System.out.println("Array items are: "+array);*/
 
         int[] array={3,4,7};
-        int sumArray=0;
+        int sumArray=sumOfArray(array);
 
-        for (int j=0;j<array.length;j++){
-             sumArray+= array[j];
-
-        }
 
         System.out.println(sumArray);
 
