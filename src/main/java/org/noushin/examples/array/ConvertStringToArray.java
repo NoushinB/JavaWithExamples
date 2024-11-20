@@ -9,10 +9,8 @@ public class ConvertStringToArray {
         System.out.println("Please input a String: ");
         String inputString = scanner.nextLine();
 
-        char[] array = inputString.toCharArray();
-        for (char i : array) {
-            System.out.println(i);
-        }
+        char[] array = convertStringToArray(inputString);
+
         System.out.println("Also we can use this way: ");
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
@@ -20,5 +18,13 @@ public class ConvertStringToArray {
         }
 
 
+    }
+
+    public static char[] convertStringToArray(String inputString){
+        char[] array=inputString.toCharArray();
+        for (char i:array){
+            System.out.println(i);
+        }
+return array;
     }
 }
