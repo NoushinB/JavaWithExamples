@@ -10,21 +10,13 @@ public class ConvertStringToArray {
         String inputString = scanner.nextLine();
 
         char[] array = convertStringToArray(inputString);
-
-        System.out.println("Also we can use this way: ");
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
-
-        }
-
-
     }
 
-    public static char[] convertStringToArray(String inputString){
-        char[] array=inputString.toCharArray();
-        for (char i:array){
+    public static char[] convertStringToArray(String inputString) {
+        char[] array = inputString.toCharArray();
+        for (char i : array) {
             System.out.println(i);
         }
-return array;
+        return array;
     }
 }
