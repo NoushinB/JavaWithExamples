@@ -9,6 +9,13 @@ public class SimpleReverseString {
             reverseString+=myString.charAt(i);
         }
         System.out.println(reverseString);
-    }
 
+        /*String originalStr="Noushin";
+        String reverseString="";
+        for (int i=0;i<originalStr.length();i++){
+            reverseString=originalStr.charAt(i)+reverseString;
+
+        }
+        System.out.println(reverseString);*/
+    }
 }
